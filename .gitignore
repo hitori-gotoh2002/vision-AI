@@ -1,0 +1,13 @@
+# Local submission artifacts
+submission/
+**/assets/model/*.pt
+**/prediction.csv
+*.zip
+
+# Secrets and notebook state
+.env
+**/.ipynb_checkpoints/
+
+# Python caches
+**/__pycache__/
+*.py[cod]
